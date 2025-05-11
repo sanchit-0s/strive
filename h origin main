@@ -1,0 +1,6 @@
+[33m77fe2cd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Re-add client folder as a regular directory
+[33m7a8e6cc[m Remove client folder as submodule
+[33mef73ebf[m Re-add client folder and changes
+[33mf6c4f0a[m Remove submodule reference for client
+[33m3661d80[m Added .env, node_modules, and build to .gitignore
+[33m2d41f0d[m production ready app
