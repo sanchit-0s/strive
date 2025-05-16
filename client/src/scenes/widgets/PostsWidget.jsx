@@ -15,7 +15,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
  useEffect(() => {
   const getUserPosts = async () => {
     const response = await fetch(
-      `http://localhost:3001/posts/${userId}/posts`,
+      `https://strive-6z5d.onrender.com/posts/${userId}/posts`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },

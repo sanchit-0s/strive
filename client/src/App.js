@@ -25,7 +25,7 @@ function AppContent() {
 
   useEffect(() => {
     startListening(async (transcript) => {
-      const res = await fetch("http://localhost:3001/api/voice-command", {
+      const res = await fetch("https://strive-6z5d.onrender.com/api/voice-command", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: transcript }),

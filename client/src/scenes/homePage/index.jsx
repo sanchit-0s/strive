@@ -23,7 +23,7 @@ const HomePage = () => {
 
   useEffect(() => {
     const fetchPosts = async () => {
-      const response = await fetch("http://localhost:3001/posts", {
+      const response = await fetch("https://strive-6z5d.onrender.com/posts", {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
       });

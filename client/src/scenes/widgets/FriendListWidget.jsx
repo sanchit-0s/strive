@@ -15,7 +15,7 @@ const FriendListWidget = ({ userId }) => {
 
   const getFriends = async () => {
     const response = await fetch(
-      `http://localhost:3001/users/${userId}/friends`,
+      `https://strive-6z5d.onrender.com/users/${userId}/friends`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
@@ -32,7 +32,7 @@ const FriendListWidget = ({ userId }) => {
   const toggleFriend = async (friendId) => {
     try {
       const response = await fetch(
-        `http://localhost:3001/users/${userId}/${friendId}`,
+        `https://strive-6z5d.onrender.com/users/${userId}/${friendId}`,
         {
           method: "PATCH",
           headers: { Authorization: `Bearer ${token}` },

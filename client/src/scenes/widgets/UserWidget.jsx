@@ -21,7 +21,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
     const getUser = async () => {
         try {
-            const response = await fetch(`http://localhost:3001/users/${userId}`, {
+            const response = await fetch(`https://strive-6z5d.onrender.com/users/${userId}`, {
                 method: "GET",
                 headers: { Authorization: `Bearer ${token}` },
             });
