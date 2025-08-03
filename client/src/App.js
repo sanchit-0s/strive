@@ -14,7 +14,7 @@ import { themeSettings } from "./theme.js";
 import { startListening } from "./voice/speech";
 import { sendVoiceCommand } from "./voice/voiceHandler";
 
-// ✅ New inner component
+// new inner component
 function AppContent() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
